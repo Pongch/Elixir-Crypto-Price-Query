@@ -4,12 +4,13 @@ defmodule Cryptoquery do
   """
 
   @doc """
-  Hello world.
+  Query an API Endpoint to get Price of Cryptocurrency
 
   ## Examples
 
-      iex> Cryptoquery.hello
-      :world
+      iex> Cryptoquery.rates_for(["USD"], "ETH")
+      :ok
+      686.24 USD for 1 ETH
 
   """
   def hello do
